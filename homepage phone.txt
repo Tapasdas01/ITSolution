@@ -1,0 +1,133 @@
+<html>
+<head>
+<title></title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+.header{
+	background-color:#3C95a8;
+	height:9vh;
+	flex-basis:100vw;
+display:flex;
+flex-direction:row;
+}
+.icons{
+	height:100%;
+	justify-content:space-around;
+	align-items:center;
+	flex-basis:50vw;
+	display:flex;
+	flex-direction:row;
+	font-size:1.3vw;
+	font-family:fantasy;
+	text-shadow:0 0 2px #000000;
+	
+}
+a.href1,a.href2,a.href3,a.href4,a.href5,a.href6,a.href7,a.href9{
+text-decoration:none;
+color:white;
+}
+#logo{
+
+	flex-basis:10vw;
+
+}
+.middle{
+background-image:url('D:/website operational/home page1.jpeg');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+height:82vh;
+width:100vw;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+.footer{
+height:9vh;
+width:100vw;
+background-color:#3C95a8;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:1.4vw;
+font-family:fantasy;
+	text-shadow:0 0 2px #000000;
+}
+#read{
+font-size:1.5vw;
+color:white;
+background-color:#ffa500;
+height:7vh;
+width:;
+display:flex;
+align-items:center;
+
+}
+#heading{
+font-size:5vw;
+font-weight:bold;
+color:white;
+font-family:impact;text-shadow:0 0 10px #000000
+}
+@media (max-width:500px){ 
+.header{
+writing-mode:vertical-rl;
+flex:15vw;
+height:91vh;
+max-width:10vw;
+}
+.middle{
+height:91vh;
+flex:85vw;
+
+}
+.m1{
+display:flex;
+flex-direction:row;
+
+}
+.icons{
+
+height:91vh;
+font-size:2vh;
+
+}
+
+
+}
+</style>
+</head>
+<body>
+<div class="m1">
+<div class="header">
+<div id="logo">
+<img src="D:/website operational/IT SOLUTION1.jpg" alt="Logo" style="height:100%;width:100%;">
+</div>
+<div class="icons">
+<div><a href=""  class="href1">HOME</a></div>
+
+<div><a href="D:/website operational/courses.html" class="href3">COURSES</a></div>
+<div><a href="D:/website operational/Team.html" class="href4">TEAM</a></div>
+<div><a href="" class="href5">ABOUT&nbspUS</a></div>
+<div><a href="D:/website operational/contact us.html" class="href6">CONTACT&nbspUS</a></div>
+</div>
+</div>
+<div class="middle">
+<div class="betweentext">
+<div id="heading" style=";">IT&nbspSOLUTION&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</div>
+<div id="read">&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRaise&nbspThe&nbspBar&nbspof&nbspKnowledge</div>
+</div>
+</div>
+</div>
+<div class="footer">
+<a href="D:/website operational/terms and privacy policy.html" class="href7">Terms&nbsp&&nbspPrivacy&nbspPolicy&nbsp&nbsp|</a>&nbsp&nbsp<a href="D:/website operational/contact us.html" class="href9">Powered&nbspBy&nbspIT&nbspSolutions</a>
+</div>
+</body>
+</html>
